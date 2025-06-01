@@ -1,13 +1,13 @@
 import os
 
 # Токен вашего бота, полученный от BotFather
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8099750252:AAHB13vyQb_nI_6_DOsq5I8HAFePDtYjMHo")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 # URL вашего локального сервера Ollama
 OLLAMA_API_URL = "http://localhost:11434/api/chat"
 
 # Идентификаторы администраторов (для управления ботом)
-ADMIN_IDS = [1234567890]  # Замените на свои ID, если нужно
+ADMIN_IDS = []  # Замените на свои ID, если нужно
 
 # Уберите ограничение на пользователей, чтобы все могли использовать бота
 USER_IDS = []  # Теперь список пустой, значит все пользователи могут пользоваться ботом
